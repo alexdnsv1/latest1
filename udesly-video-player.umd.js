@@ -30,7 +30,7 @@
                     a.removeAttribute("src"), d ? a.setAttribute("src", h[0]) : 1 == h.length ? a.remove() : a.setAttribute("src", h[1]), d = !1
                 })
             }
-            i.remove(), this.injectStyle(c), this.videoWrapper.appendChild(j), this.video = j, this.video.onplaying = function() {
+            i.remove(), .setAttribute("muted"), .setAttribute("autoplay"), .setAttribute("loop"), .setAttribute("playsinline"), .setAttribute("data-wf-ignore"), this.injectStyle(c), this.videoWrapper.appendChild(j), this.video = j, this.video.onplaying = function() {
                 return g.changePlayStatus()
             }, this.video.muted = !1, this.video.loop = !1, this.video.onended = function() {
                 return g.handleEnd()
